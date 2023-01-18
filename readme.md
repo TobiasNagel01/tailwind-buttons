@@ -24,7 +24,7 @@ To install this package run
 ```html
 <x-button::blue text="TestButton">
 ```
-*You can also put your own HTML Content inside this slot, for example to add a loading Spinner instead of text*\s\s
+*You can also put your own HTML Content inside this slot, for example to add a loading Spinner instead of text*
 
 **Route:**
 ```html
@@ -50,11 +50,11 @@ Normal:
 Rounded:
 ```html
 <x-button::rounded.blue>
-    <x-button::rounded.green>
-        <x-button::rounded.red>
-            <x-button::rounded.yellow>
-                <x-button::rounded.purple>
-                    <x-button::rounded.dark>
+<x-button::rounded.green>
+<x-button::rounded.red>
+<x-button::rounded.yellow>
+<x-button::rounded.purple>
+<x-button::rounded.dark>
 ```
 
 Outline:
