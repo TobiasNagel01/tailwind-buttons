@@ -1,0 +1,32 @@
+{
+  "name": "tobiasnagel01/tailwind-buttons",
+  "description": "Button Components using Tailwind CSS",
+  "version": "1.0",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tobias Nagel",
+      "email": "tobias.nagel001@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TobiasNagel01\\TailwindButtons\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "TobiasNagel01\\TailwindButtons\\TailwindButtonsServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "^9.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.0"
+  }
+}
